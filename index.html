@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Redaction App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Text Redaction App</h1>
+            <label for="originalText">Enter Text:</label>
+            <textarea id="originalText" placeholder="Enter the text to redact"></textarea>
+            <label for="redactWords">Words to Redact:</label>
+            <input type="text" id="redactWords" placeholder="Enter words to redact">
+            <button id="redactButton">Redact Now</button>
+        </div>
+        <div class="result-container">
+            <label for="redactedText">Redacted Text:</label>
+            <textarea id="redactedText" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
